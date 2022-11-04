@@ -11,10 +11,10 @@
 $ git clone https://github.com/JayTrimbake/JyPhisher.git
 ```
 
-- Change to cloned directory and run `python3 setup.py` -
+- Change to cloned directory and run for setup `sudo python3 setup.py` -
 ```
 $ cd JyPhisher
-$ python3 setup.py
+$ sudo python3 setup.py
 ```
 
 
