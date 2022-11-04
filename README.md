@@ -11,9 +11,15 @@
 $ git clone https://github.com/JayTrimbake/JyPhisher.git
 ```
 
-- Change to cloned directory and run for setup `sudo python3 setup.py` -
+- Change to cloned directory and run for Kali Linux setup `sudo python3 setup.py` -
 ```
 $ cd JyPhisher
+$ sudo python3 setup.py
+```
+- For Termux run `pkg install python3` -
+```
+$ cd JyPhisher
+$ pip3 install termcolor
 $ sudo python3 setup.py
 ```
 
@@ -22,8 +28,10 @@ $ sudo python3 setup.py
 
 **`JyPhisher`** requires following programs to run properly - 
 - `python3`
+- `PHP`
+- `Wget`
 
-> Supported Platform :**`Kali Linux Only`**,
+> Supported Platform :**`Kali Linux and Termux Only`**,
 
 ### Find Me on :
 <p align="left">
